@@ -9,6 +9,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDateTime;
+
 @Data
 @Builder
 @NoArgsConstructor
@@ -26,8 +28,8 @@ public class Task {
     private String assignedTo;
     private String status;
     private String createdBy;
-    private String deadline;
-    private String completedAt;
+    private LocalDateTime deadline;
+    private LocalDateTime completedAt;
     private int hasSentDeadlineNotification;
     private int hasSentReminderNotification;
 }
