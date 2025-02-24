@@ -17,8 +17,7 @@ public class TaskSchedulerServiceImpl implements TaskSchedulerService {
     private final Scheduler scheduler;
 
     public void scheduleTask(Task task) throws SchedulerException {
-        LocalDateTime notificationTime = task.getDeadline().minusHours(1);
-        Date notificationDate = Date.from(notificationTime.atZone(ZoneId.systemDefault()).toInstant());
+        Date notificationDate = Date.from(task.getDeadline().atZone(ZoneId.systemDefault()).toInstant());
 
         JobDetail jobDetail = JobBuilder.newJob(NotificationJob.class)
                 .withIdentity(String.valueOf(task.getTaskId()), "TaskNotifications")
