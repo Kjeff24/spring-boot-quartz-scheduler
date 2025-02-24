@@ -19,11 +19,6 @@ public class NotificationJob implements Job {
     public NotificationJob() {
     }
 
-//    public NotificationJob(NotificationService notificationService, TaskRepository taskRepository) {
-//        this.notificationService = notificationService;
-//        this.taskRepository = taskRepository;
-//    }
-
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
         String taskId = jobExecutionContext.getJobDetail().getJobDataMap().getString("taskId");
