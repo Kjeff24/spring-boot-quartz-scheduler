@@ -1,4 +1,4 @@
-package com.bexis.quartz_scheduler.model;
+package com.bexos.quartz_scheduler.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

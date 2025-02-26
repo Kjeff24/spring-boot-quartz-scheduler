@@ -1,13 +1,12 @@
-package com.bexis.quartz_scheduler.service.impl;
+package com.bexos.quartz_scheduler.service.impl;
 
-import com.bexis.quartz_scheduler.model.Task;
-import com.bexis.quartz_scheduler.job.NotificationJob;
-import com.bexis.quartz_scheduler.service.TaskSchedulerService;
+import com.bexos.quartz_scheduler.model.Task;
+import com.bexos.quartz_scheduler.job.NotificationJob;
+import com.bexos.quartz_scheduler.service.TaskSchedulerService;
 import lombok.RequiredArgsConstructor;
 import org.quartz.*;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
 

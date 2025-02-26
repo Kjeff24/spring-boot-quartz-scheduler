@@ -1,4 +1,4 @@
-package com.bexis.quartz_scheduler;
+package com.bexos.quartz_scheduler;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

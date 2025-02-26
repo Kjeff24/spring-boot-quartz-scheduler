@@ -1,9 +1,9 @@
-package com.bexis.quartz_scheduler.service.impl;
+package com.bexos.quartz_scheduler.service.impl;
 
-import com.bexis.quartz_scheduler.model.Task;
-import com.bexis.quartz_scheduler.repository.TaskRepository;
-import com.bexis.quartz_scheduler.service.TaskSchedulerService;
-import com.bexis.quartz_scheduler.service.TaskService;
+import com.bexos.quartz_scheduler.model.Task;
+import com.bexos.quartz_scheduler.repository.TaskRepository;
+import com.bexos.quartz_scheduler.service.TaskSchedulerService;
+import com.bexos.quartz_scheduler.service.TaskService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.bexis.quartz_scheduler.dto;
+package com.bexos.quartz_scheduler.dto;
 
 import lombok.Builder;
 

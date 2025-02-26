@@ -1,8 +1,8 @@
-package com.bexis.quartz_scheduler.util;
+package com.bexos.quartz_scheduler.util;
 
-import com.bexis.quartz_scheduler.model.Task;
-import com.bexis.quartz_scheduler.repository.TaskRepository;
-import com.bexis.quartz_scheduler.service.TaskSchedulerService;
+import com.bexos.quartz_scheduler.model.Task;
+import com.bexos.quartz_scheduler.repository.TaskRepository;
+import com.bexos.quartz_scheduler.service.TaskSchedulerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;

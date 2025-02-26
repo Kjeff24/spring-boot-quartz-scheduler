@@ -1,7 +1,7 @@
-package com.bexis.quartz_scheduler.service.impl;
+package com.bexos.quartz_scheduler.service.impl;
 
-import com.bexis.quartz_scheduler.model.Task;
-import com.bexis.quartz_scheduler.service.NotificationService;
+import com.bexos.quartz_scheduler.model.Task;
+import com.bexos.quartz_scheduler.service.NotificationService;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

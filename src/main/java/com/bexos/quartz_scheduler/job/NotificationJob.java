@@ -1,8 +1,8 @@
-package com.bexis.quartz_scheduler.job;
+package com.bexos.quartz_scheduler.job;
 
-import com.bexis.quartz_scheduler.model.Task;
-import com.bexis.quartz_scheduler.repository.TaskRepository;
-import com.bexis.quartz_scheduler.service.NotificationService;
+import com.bexos.quartz_scheduler.model.Task;
+import com.bexos.quartz_scheduler.repository.TaskRepository;
+import com.bexos.quartz_scheduler.service.NotificationService;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;

@@ -1,14 +1,13 @@
-package com.bexis.quartz_scheduler;
+package com.bexos.quartz_scheduler;
 
-import com.bexis.quartz_scheduler.model.Task;
-import com.bexis.quartz_scheduler.service.TaskService;
+import com.bexos.quartz_scheduler.model.Task;
+import com.bexos.quartz_scheduler.service.TaskService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 @SpringBootApplication
 @RequiredArgsConstructor

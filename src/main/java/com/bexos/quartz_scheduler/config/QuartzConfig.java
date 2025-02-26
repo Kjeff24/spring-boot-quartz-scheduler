@@ -1,4 +1,4 @@
-package com.bexis.quartz_scheduler.config;
+package com.bexos.quartz_scheduler.config;
 
 import org.quartz.Scheduler;
 import org.quartz.SchedulerException;

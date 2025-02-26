@@ -1,6 +1,6 @@
-package com.bexis.quartz_scheduler.service;
+package com.bexos.quartz_scheduler.service;
 
-import com.bexis.quartz_scheduler.model.Task;
+import com.bexos.quartz_scheduler.model.Task;
 import org.quartz.SchedulerException;
 
 public interface TaskSchedulerService {

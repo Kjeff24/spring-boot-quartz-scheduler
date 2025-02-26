@@ -1,6 +1,6 @@
-package com.bexis.quartz_scheduler.exception;
+package com.bexos.quartz_scheduler.exception;
 
-import com.bexis.quartz_scheduler.dto.MessageResponse;
+import com.bexos.quartz_scheduler.dto.MessageResponse;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
